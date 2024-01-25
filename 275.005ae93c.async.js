@@ -69,7 +69,7 @@
       color: white;
     }
   }
-`]))),k={Loading:35,LoadingLG:52,LoadingSM:18},D=function(l){var g=l.name,W=l.icon,Y=l.isNew,T=l.checkMode,t=l.justCopied,u=l.onCopied,z=h()({copied:t===g}),j=function(K,Z){Z?u(g,K):v.ZP.error("Copy icon name failed, please try again.")},H=W.displayName.includes("Loading"),S={spin:H,anti:!0,style:f()(f()({},T?{border:".5px dashed"}:{}),H?{fontSize:k[W.displayName]}:{})};return(0,o.tZ)(O(),{text:"<".concat(g," />"),onCopy:j,children:(0,o.BX)(r,{className:z,children:[s.createElement(W,S),(0,o.tZ)("span",{className:"neaticon-name",children:(0,o.tZ)(c.Z,{dot:Y,children:g})})]})})},N=D,a=e(96486),d=e(79748),P=e(77315),n,F,V=(0,a.toArray)(m).filter(function(I){return(I==null?void 0:I.displayName)!=="NeatIcon"}),ee=x.Z.div(n||(n=L()([`
+`]))),k={Loading:35,LoadingLG:52,LoadingSM:18},D=function(l){var g=l.name,W=l.icon,Y=l.isNew,T=l.checkMode,t=l.justCopied,u=l.onCopied,z=h()({copied:t===g}),j=function(K,Z){Z?u(g,K):v.ZP.error("Copy icon name failed, please try again.")},H=W.displayName.includes("Loading"),S={spin:H,anti:!0,style:f()(f()({},T?{border:".5px dashed"}:{}),H?{fontSize:k[W.displayName]}:{})};return(0,o.tZ)(O(),{text:"<".concat(g," />"),onCopy:j,children:(0,o.BX)(r,{className:z,children:[s.createElement(W,S),(0,o.tZ)("span",{className:"neaticon-name",children:(0,o.tZ)(c.Z,{dot:Y,children:g})})]})})},N=D,a=e(96486),d=e(2233),P=e(77315),n,F,V=(0,a.toArray)(m).filter(function(I){return(I==null?void 0:I.displayName)!=="NeatIcon"}),ee=x.Z.div(n||(n=L()([`
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
